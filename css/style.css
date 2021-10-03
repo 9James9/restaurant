@@ -1,0 +1,25 @@
+.mainTitle {
+
+    text-align: center;
+    
+}
+.flex {
+    display: flex;
+    border: 10px solid black;
+    justify-content: center;
+}
+.foodimg {
+    width: 350px;
+    padding-bottom: 50px;
+}
+.foodtitle{
+    font-size: 50px;
+    text-align: center;
+}
+.fooddescription {
+    font-size: 18px;
+}
+.foodprice {
+    font-size: 18px;
+    border: 2px dotted black;
+}
