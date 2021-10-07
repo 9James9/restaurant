@@ -76,3 +76,18 @@ html {
     flex-direction: column;
     align-items: center;
 }
+.contactimage{
+    border-radius: 50%;
+    width: 20%;
+    padding-top: 25px;
+}
+.hours{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 40px;
+    font-size: 24px;
+}

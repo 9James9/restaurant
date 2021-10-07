@@ -6,7 +6,7 @@ function testModule(){
 
 function loadHome(){
     const mainTitle = document.createElement('h1')
-    mainTitle.textContent = "My Restaurant!"
+    mainTitle.textContent = "Beachside Buffet"
     document.querySelector('#content').appendChild(mainTitle)
     mainTitle.classList.add('mainTitle')
     const headContent = document.createElement('div')
@@ -16,7 +16,7 @@ function loadHome(){
     //console.log('loadhome is linked')
     const title = document.createElement('h2')
     title.classList.add('title')
-    title.textContent = "Welcome to restauraunt"
+    title.textContent = "Welcome home"
     headContent.appendChild(title)
     headContent.classList.add('headcontent')
     const button1 = document.createElement('button')

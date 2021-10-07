@@ -10,7 +10,7 @@ function helloMenu(){
     //remove the homepage image
     document.querySelector('.image').src = ""
     //change sub title
-    document.querySelector('.title').textContent = "Hello menu"
+    document.querySelector('.title').textContent = "Our Menu"
     //factory function to create menu items
     const menuContainer = document.createElement('div')
     document.querySelector('#content').appendChild(menuContainer)
