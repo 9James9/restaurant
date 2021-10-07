@@ -9,6 +9,10 @@ function helloMenu(){
     //change sub title
     document.querySelector('.title').textContent = "Hello menu"
     //factory function to create menu items
+    const menuContainer = document.createElement('div')
+    document.querySelector('#content').appendChild(menuContainer)
+    menuContainer.textContent = ""
+    menuContainer.classList.add('menucontainer')
     function createMenuItems (title,image,description,price){
         const container = document.createElement('div')
         container.classList.add('flex')
@@ -28,8 +32,8 @@ function helloMenu(){
         foodPrice.textContent = price
         foodPrice.classList.add('foodprice')
 
-        //append container to content
-        document.querySelector('#content').appendChild(container)
+        //append container to menuContainer
+        menuContainer.appendChild(container)
         //append title to container
         container.appendChild(foodTitle)
         //append image to title
@@ -39,6 +43,8 @@ function helloMenu(){
         //append price to description
         foodDescription.appendChild(foodPrice)
     }
+    createMenuItems("Telephone","../images/telephone.png","A yummy telephone", "$7.39")
+    createMenuItems("Bacon","../images/bacon.png","Some good bacon bro", "$14.49")
     createMenuItems("Telephone","../images/telephone.png","A yummy telephone", "$7.39")
     createMenuItems("Bacon","../images/bacon.png","Some good bacon bro", "$14.49")
 }

@@ -6,10 +6,28 @@
 .flex {
     display: flex;
     border: 10px solid black;
+    flex-direction: column;
+    width: 500px;
+    background-color: aliceblue;
+}
+.menucontainer {
+
+    background-image: url(../images/background.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     justify-content: center;
+    
 }
 .foodimg {
-    width: 350px;
+    width: 75%;
+    height: 75%;
     padding-bottom: 50px;
 }
 .foodtitle{
@@ -22,4 +40,13 @@
 .foodprice {
     font-size: 18px;
     border: 2px dotted black;
+}
+.button1 {
+    padding: 10px;
+}
+.button2 {
+    padding: 10px;
+}
+.button3 {
+    padding: 10px;
 }

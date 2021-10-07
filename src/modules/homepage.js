@@ -16,13 +16,15 @@ function loadHome(){
     //console.log('loadhome is linked')
     const title = document.createElement('h2')
     title.classList.add('title')
-    title.textContent = "Welcome to restaraunt"
+    title.textContent = "Welcome to restauraunt"
     headContent.appendChild(title)
     const button1 = document.createElement('button')
     const button2 = document.createElement('button')
     const button3 = document.createElement('button')
     button1.textContent = 'Home'
     button1.classList.add('button1')
+    button2.classList.add('button2')
+    button3.classList.add('button3')
     button2.textContent = 'Menu'
     button3.textContent = 'Contact'
     const buttonContainer = document.createElement('div')
@@ -51,3 +53,4 @@ function loadHome(){
    
 }
 export {loadHome, testModule}
+
