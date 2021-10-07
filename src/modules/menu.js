@@ -46,9 +46,9 @@ function helloMenu(){
         //append price to description
         foodDescription.appendChild(foodPrice)
     }
-    createMenuItems("Telephone","../images/telephone.png","A yummy telephone", "$7.39")
-    createMenuItems("Bacon","../images/bacon.png","Some good bacon bro", "$14.49")
-    createMenuItems("Telephone","../images/telephone.png","A yummy telephone", "$7.39")
-    createMenuItems("Bacon","../images/bacon.png","Some good bacon bro", "$14.49")
+    createMenuItems("Watermelon","../images/watermelon.png","Fresh watermelon", "$12.99")
+    createMenuItems("Exactly 7 Turkey Sandwiches","../images/turkeysandwiches.png","Some delicious turkey sandwiches for you and your friends!", "$84.29")
+    createMenuItems("Farm-raised Salmon","../images/salmon.png","Perfectly cooked salmon", "$27.39")
+    createMenuItems("Bacon","../images/bacon.png","All you can eat bacon", "$50.00")
 }
 export default helloMenu
