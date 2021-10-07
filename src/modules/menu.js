@@ -2,8 +2,11 @@
 import { loadHome } from "./homepage"
 function helloMenu(){
     document.querySelector('#content').textContent = ""
+    
     //loads the home page
     loadHome()
+    //remove the homepage info box
+    document.querySelector('.infobox').textContent = ""
     //remove the homepage image
     document.querySelector('.image').src = ""
     //change sub title

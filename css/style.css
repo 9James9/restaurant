@@ -50,3 +50,13 @@
 .button3 {
     padding: 10px;
 }
+html {
+    background-image: repeating-linear-gradient(lightblue,green);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
