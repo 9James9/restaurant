@@ -3,6 +3,11 @@
     text-align: center;
     
 }
+.title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .flex {
     display: flex;
     border: 10px solid black;
@@ -43,6 +48,7 @@
 }
 .button1 {
     padding: 10px;
+    
 }
 .button2 {
     padding: 10px;
@@ -56,7 +62,17 @@ html {
     height: 100%;
 }
 .image {
+    width: 50%;
+    
+}
+.buttoncontainer {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.headcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

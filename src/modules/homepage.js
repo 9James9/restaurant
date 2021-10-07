@@ -18,6 +18,7 @@ function loadHome(){
     title.classList.add('title')
     title.textContent = "Welcome to restauraunt"
     headContent.appendChild(title)
+    headContent.classList.add('headcontent')
     const button1 = document.createElement('button')
     const button2 = document.createElement('button')
     const button3 = document.createElement('button')
@@ -28,6 +29,7 @@ function loadHome(){
     button2.textContent = 'Menu'
     button3.textContent = 'Contact'
     const buttonContainer = document.createElement('div')
+    buttonContainer.classList.add('buttoncontainer')
     headContent.appendChild(buttonContainer)
     buttonContainer.appendChild(button1)
     buttonContainer.appendChild(button2)
