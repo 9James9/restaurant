@@ -1,8 +1,6 @@
-import helloMenu from "./menu"
+import createMenu from "./menu"
 import contactUs from "./contact"
-function testModule(){
-    console.log('hello testmodule')
-}
+
 
 function loadHome(){
     const mainTitle = document.createElement('h1')
@@ -44,7 +42,7 @@ function loadHome(){
     button2.addEventListener('click', () => {
         content.textContent = ""
         loadHome()
-        helloMenu()
+        createMenu()
     })
     button3.addEventListener('click', () => {
         content.textContent = ""
@@ -83,5 +81,5 @@ function loadHome(){
     createChef("John","Senior chef, favorite food: sliced watermelon","../images/firstchef.png")
     createChef("Mike","Junior chef, favorite food: exactly 7 turkey sandwiches","../images/secondchef.png")
 }
-export {loadHome, testModule}
+export default loadHome
 

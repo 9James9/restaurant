@@ -1,5 +1,3 @@
-console.log('hello webpack')
-import {loadHome, testModule} from './modules/homepage'
-testModule()
+import loadHome from './modules/homepage'
 
 loadHome()

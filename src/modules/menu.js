@@ -1,6 +1,6 @@
 
 import { loadHome } from "./homepage"
-function helloMenu(){
+function createMenu(){
     document.querySelector('#content').textContent = ""
     
     //loads the home page
@@ -51,4 +51,4 @@ function helloMenu(){
     createMenuItems("Farm-raised Salmon","../images/salmon.png","Perfectly cooked salmon", "$27.39")
     createMenuItems("Bacon","../images/bacon.png","All you can eat bacon", "$50.00")
 }
-export default helloMenu
+export default createMenu
