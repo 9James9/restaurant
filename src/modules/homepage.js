@@ -57,6 +57,31 @@ function loadHome(){
     infoBox.classList.add('infobox')
     content.appendChild(infoBox)
     infoBox.textContent = "Our restaurant is famously known for having some of the best Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere quam quam, a rutrum ante imperdiet venenatis. Duis faucibus lacinia justo et dapibus. Maecenas vitae dictum nunc. Praesent eu eros sed nulla pulvinar vulputate. Suspendisse non nisl faucibus, iaculis enim a, venenatis massa. Mauris porta vulputate nisi, eu volutpat velit aliquam sit amet. Nulla cursus, mi vitae ultrices lobortis, est nulla fringilla odio, vel feugiat velit orci vel erat. Maecenas feugiat ante sed ex tincidunt placerat. Morbi ut metus vel ex dignissim tempor quis sit amet mi. Aenean eget maximus orci, at porttitor odio."
+    const chefDisplay = document.createElement('div')
+    chefDisplay.classList.add('chefdisplay')
+    infoBox.appendChild(chefDisplay)
+    chefDisplay.textContent = "Meet the chefs"
+    function createChef (name,favoriteFood,picture) {
+        const chefContainer = document.createElement('div')
+        chefContainer.classList.add('chefcontainer')
+        const chefImg = document.createElement('img')
+        chefImg.setAttribute('src',picture)
+        chefImg.classList.add('chefimg')
+        const chefName = document.createElement('h3')
+        chefName.textContent = name
+        chefName.classList.add('chefname')
+
+        const chefFavorite = document.createElement('div')
+        chefFavorite.textContent = favoriteFood
+        chefFavorite.classList.add('cheffavorite')
+
+        chefDisplay.appendChild(chefContainer)
+        chefContainer.appendChild(chefName)
+        chefContainer.appendChild(chefImg)
+        chefContainer.appendChild(chefFavorite)
+    }
+    createChef("mr.watermelon","watermelon","../images/watermelon.png")
+    createChef("mr.watermelon","watermelon","../images/watermelon.png")
 }
 export {loadHome, testModule}
 

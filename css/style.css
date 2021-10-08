@@ -56,10 +56,13 @@
 .button3 {
     padding: 10px;
 }
-html {
+html body{
     background-image: repeating-linear-gradient(lightblue,green);
     background-repeat: no-repeat;
     height: 100%;
+}
+html {
+    background-color: black;
 }
 .image {
     width: 50%;
@@ -90,4 +93,26 @@ html {
     margin-right: 20%;
     line-height: 40px;
     font-size: 24px;
+}
+.chefdisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+.chefimg {
+    width: 350px;
+    align-items: center;
+}
+.chefname {
+    font-size: 24px;
+    text-align: center;
+}
+.cheffavorite {
+    font-size: 18px;
+    text-align: left;
+}
+.infobox {
+    padding: 0px 20px;
 }
