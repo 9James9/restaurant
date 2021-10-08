@@ -1,5 +1,5 @@
 
-import { loadHome } from "./homepage"
+import loadHome from "./homepage"
 function createMenu(){
     document.querySelector('#content').textContent = ""
     

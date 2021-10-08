@@ -1,7 +1,6 @@
 import createMenu from "./menu"
 import contactUs from "./contact"
 
-
 function loadHome(){
     const mainTitle = document.createElement('h1')
     mainTitle.textContent = "Beachside Buffet"
@@ -10,8 +9,6 @@ function loadHome(){
     const headContent = document.createElement('div')
     const content = document.querySelector('#content')
     content.appendChild(headContent)
-    //headContent.textContent = 'headcontent'
-    //console.log('loadhome is linked')
     const title = document.createElement('h2')
     title.classList.add('title')
     title.textContent = "Welcome home"
@@ -50,7 +47,6 @@ function loadHome(){
         contactUs()
     })
     image.src = "../images/image1.png"
-   
     let infoBox = document.createElement('div')
     infoBox.classList.add('infobox')
     content.appendChild(infoBox)
