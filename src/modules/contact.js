@@ -9,7 +9,7 @@ function contactUs(){
     document.querySelector('.infobox').appendChild(hours)
     hours.classList.add('hours')
     //changes image to telephone
-    document.querySelector('.image').src = "../images/telephone.png"
+    document.querySelector('.image').src = "../../dist/images/telephone.png"
     document.querySelector('.image').classList.add('contactimage')
 }
 export default contactUs
