@@ -54,7 +54,7 @@ function loadHome(){
     const chefDisplay = document.createElement('div')
     chefDisplay.classList.add('chefdisplay')
     infoBox.appendChild(chefDisplay)
-    chefDisplay.textContent = "Meet the chefs"
+    chefDisplay.textContent = "Meet the chefs'"
     function createChef (name,favoriteFood,picture) {
         const chefContainer = document.createElement('div')
         chefContainer.classList.add('chefcontainer')
