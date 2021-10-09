@@ -74,8 +74,8 @@ function loadHome(){
         chefContainer.appendChild(chefImg)
         chefContainer.appendChild(chefFavorite)
     }
-    createChef("John","Senior chef, favorite food: sliced watermelon","../dist/images/firstchef.png")
-    createChef("Mike","Junior chef, favorite food: exactly 7 turkey sandwiches","../dist/images/secondchef.png")
+    createChef("John","Senior chef, favorite food: sliced watermelon","images/firstchef.png")
+    createChef("Mike","Junior chef, favorite food: exactly 7 turkey sandwiches","images/secondchef.png")
 }
 export default loadHome
 
