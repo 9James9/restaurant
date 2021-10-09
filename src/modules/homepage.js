@@ -46,7 +46,7 @@ function loadHome(){
         loadHome()
         contactUs()
     })
-    image.src = "../dist/images/image1.png"
+    image.src = "images/image1.png"
     let infoBox = document.createElement('div')
     infoBox.classList.add('infobox')
     content.appendChild(infoBox)
