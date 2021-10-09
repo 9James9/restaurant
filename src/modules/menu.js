@@ -46,7 +46,7 @@ function createMenu(){
         //append price to description
         foodDescription.appendChild(foodPrice)
     }
-    createMenuItems("Watermelon","../../dist/images/watermelon.png","Fresh watermelon", "$12.99")
+    createMenuItems("Watermelon","images/watermelon.png","Fresh watermelon", "$12.99")
     createMenuItems("Exactly 7 Turkey Sandwiches","../../dist/images/turkeysandwiches.png","Some delicious turkey sandwiches for you and your friends!", "$84.29")
     createMenuItems("Farm-raised Salmon","../../dist/images/salmon.png","Perfectly cooked salmon", "$27.39")
     createMenuItems("Bacon","../../dist/images/bacon.png","All you can eat bacon", "$50.00")
